@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1280px;
+}
+
+.conteudo {
+  background-color: #ae1818;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-evenly;
+}
+
+.informacoes .logo {
+  max-width: 350px;
+  filter: invert();
+  margin-bottom: 80px;
+}
+
+.informacoes .descricao {
+  width: 49%;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.botoes-carrossel {
+  background-color: ae1818;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.botoes-carrossel .botao {
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  border-color: #ffffff;
+}
+
+.botoes-carrossel .botao.selecionado {
+  background-color: #1d8346;
+}
+
+.menu-lateral {
+  background-color: ae1818;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.menu-lateral ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.menu-lateral .icone {
+  width: 30px;
+  filter: invert(1);
+  transition: 0.3s ease-out;
+}
+.menu-lateral .icone:hover {
+  transform: scale(1.2);
+}
+
+.carrossel {
+  position: fixed;
+}
