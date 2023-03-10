@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 425px) {
-  .conteudo .informacoes .logo {
+  .informacoes .logo {
     max-width: 300px;
   }
   .conteudo .informacoes .descricao {
